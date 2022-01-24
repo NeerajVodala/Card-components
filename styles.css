@@ -35,19 +35,20 @@ body {
 .footer-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 10px;
 }
 
 .footer-buttons{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex: 1;
 }
 
 .footer-icons{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex: 1;
 }
 
@@ -86,12 +87,13 @@ top: 100px;
 .card-5--footer-section {
     display: flex;
     justify-content: flex-end;
+    margin: 0 10px;
 }
 
 .card-5--footer-icons {
     display: flex;
     gap: 35px;
-    margin: 5px 20px;
+    margin: 10px 25px;
 }
 
 .card-6--header {
@@ -102,3 +104,8 @@ top: 100px;
 .card-6--img img{
     width: 120px;
 }
+
+svg{
+    display: block;
+}
+
