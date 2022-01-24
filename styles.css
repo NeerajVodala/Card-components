@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #323232;
+    color: #14FFEC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    background-color: #212121;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 350px;
+}
+
+.card-heading {
+    padding: 0px 15px;
+}
+
+.card-para {
+    padding: 15px;
+    line-height: 1.6;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.footer-buttons{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+}
+
+button {
+    background: none;
+    color: #14FFEC;
+    outline: none;
+    border: none;
+}
+
+img {
+    width: 350px;
+    height: 180px;
+}
+
+.img-position{
+position: relative;
+}
+
+.heading-position{
+position: absolute;
+top: 100px;
+}
+
+.card-3--heading{
+    padding: 15px;
+}
+
+.card-4--footer-buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    margin: 0 10px;
+}
+
+.card-5--footer-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card-5--footer-icons {
+    display: flex;
+    gap: 35px;
+    margin: 5px 20px;
+}
+
+.card-6--header {
+    display: flex;
+    align-items: center;
+}
+
+.card-6--img img{
+    width: 120px;
+}
