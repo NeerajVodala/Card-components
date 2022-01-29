@@ -20,7 +20,9 @@ body {
 .card {
     background-color: #212121;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    width: 350px;
+    max-width: 350px;
+    border-radius: 7px;
+    margin: 2rem;
 }
 
 .card-heading {
@@ -57,6 +59,18 @@ button {
     color: #14FFEC;
     outline: none;
     border: none;
+    padding: 0.6rem;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+button:hover{
+    background-color: #323232;
+    font-weight: bold;
+}
+
+.like-icon, .share-icon, .menu-icon {
+    border-radius: 50%;
 }
 
 img {
@@ -70,7 +84,7 @@ position: relative;
 
 .heading-position{
 position: absolute;
-top: 100px;
+top: 7rem;
 }
 
 .card-3--heading{
